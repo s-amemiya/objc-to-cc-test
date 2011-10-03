@@ -1,4 +1,5 @@
 
+#import <Foundation/Foundation.h>
 #include <vector>
 
 using namespace std;
@@ -22,13 +23,13 @@ private:
 @implementation MyClass
 @end
 
-typedef ToCpp<MyClass> RappedMyClass;
+typedef ToCpp<MyClass> WrappedMyClass;
 
 int main()
 {
-    RappedMyClass mc([[MyClass alloc] init]);
+    WrappedMyClass mc([[MyClass alloc] init]);
 
-    vector<RappedMyClass> v;
+    vector<WrappedMyClass> v;
     v.push_back(mc);
 
     return 0;
