@@ -1,9 +1,7 @@
 
 #include <vector>
-#include <boost/scoped_ptr.hpp>
 
 using namespace std;
-using namespace boost;
 
 template <class T>
 class ToCpp
