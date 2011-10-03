@@ -1,4 +1,3 @@
-
 #import <Foundation/Foundation.h>
 #include <vector>
 
@@ -8,7 +7,7 @@ template <class T>
 class ToCpp
 {
 public:
-    typedef T ElementType;
+    typedef T element_type;
 
     ToCpp(T* const t) : t_(t) {}
     T* get() const { return t_; }
