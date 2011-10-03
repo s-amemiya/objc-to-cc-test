@@ -30,6 +30,8 @@ int main()
 
     vector<WrappedMyClass> v;
     v.push_back(mc);
+    
+    [mc.get() release];
 
     return 0;
 }
