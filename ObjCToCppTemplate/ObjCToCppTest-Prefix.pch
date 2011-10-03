@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ObjCToCppTest' target in the 'ObjCToCppTest' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

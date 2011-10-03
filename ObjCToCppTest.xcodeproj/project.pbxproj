@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D556D82D1439CA5A00A72109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D556D82C1439CA5A00A72109 /* Foundation.framework */; };
+		D556D8301439CA5A00A72109 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D556D82F1439CA5A00A72109 /* main.mm */; };
+		D556D8341439CA5A00A72109 /* ObjCToCppTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D556D8331439CA5A00A72109 /* ObjCToCppTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D556D8261439CA5A00A72109 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D556D8341439CA5A00A72109 /* ObjCToCppTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D556D8281439CA5A00A72109 /* ObjCToCppTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCToCppTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D556D82C1439CA5A00A72109 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D556D82F1439CA5A00A72109 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		D556D8321439CA5A00A72109 /* ObjCToCppTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCToCppTest-Prefix.pch"; sourceTree = "<group>"; };
+		D556D8331439CA5A00A72109 /* ObjCToCppTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjCToCppTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D556D8251439CA5A00A72109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D556D82D1439CA5A00A72109 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D556D81D1439CA5A00A72109 = {
+			isa = PBXGroup;
+			children = (
+				D556D82E1439CA5A00A72109 /* ObjCToCppTest */,
+				D556D82B1439CA5A00A72109 /* Frameworks */,
+				D556D8291439CA5A00A72109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D556D8291439CA5A00A72109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D556D8281439CA5A00A72109 /* ObjCToCppTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D556D82B1439CA5A00A72109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D556D82C1439CA5A00A72109 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D556D82E1439CA5A00A72109 /* ObjCToCppTest */ = {
+			isa = PBXGroup;
+			children = (
+				D556D82F1439CA5A00A72109 /* main.mm */,
+				D556D8331439CA5A00A72109 /* ObjCToCppTest.1 */,
+				D556D8311439CA5A00A72109 /* Supporting Files */,
+			);
+			name = ObjCToCppTest;
+			path = ObjCToCppTemplate;
+			sourceTree = "<group>";
+		};
+		D556D8311439CA5A00A72109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D556D8321439CA5A00A72109 /* ObjCToCppTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D556D8271439CA5A00A72109 /* ObjCToCppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D556D8371439CA5A00A72109 /* Build configuration list for PBXNativeTarget "ObjCToCppTest" */;
+			buildPhases = (
+				D556D8241439CA5A00A72109 /* Sources */,
+				D556D8251439CA5A00A72109 /* Frameworks */,
+				D556D8261439CA5A00A72109 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCToCppTest;
+			productName = ObjCToCppTemplate;
+			productReference = D556D8281439CA5A00A72109 /* ObjCToCppTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D556D81F1439CA5A00A72109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D556D8221439CA5A00A72109 /* Build configuration list for PBXProject "ObjCToCppTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D556D81D1439CA5A00A72109;
+			productRefGroup = D556D8291439CA5A00A72109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D556D8271439CA5A00A72109 /* ObjCToCppTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D556D8241439CA5A00A72109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D556D8301439CA5A00A72109 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D556D8351439CA5A00A72109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D556D8361439CA5A00A72109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D556D8381439CA5A00A72109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCToCppTemplate/ObjCToCppTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Developer/SDKs/MacOSX10.7.sdk/usr/include/c++/4.2.1",
+					/usr/local/Cellar/boost/1.47.0/include,
+				);
+				PRODUCT_NAME = ObjCToCppTest;
+			};
+			name = Debug;
+		};
+		D556D8391439CA5A00A72109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCToCppTemplate/ObjCToCppTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Developer/SDKs/MacOSX10.7.sdk/usr/include/c++/4.2.1",
+					/usr/local/Cellar/boost/1.47.0/include,
+				);
+				PRODUCT_NAME = ObjCToCppTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D556D8221439CA5A00A72109 /* Build configuration list for PBXProject "ObjCToCppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D556D8351439CA5A00A72109 /* Debug */,
+				D556D8361439CA5A00A72109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D556D8371439CA5A00A72109 /* Build configuration list for PBXNativeTarget "ObjCToCppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D556D8381439CA5A00A72109 /* Debug */,
+				D556D8391439CA5A00A72109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D556D81F1439CA5A00A72109 /* Project object */;
+}
